@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: dd194fe856a539d47ad16b597aff7d0b
+timeCreated: 1506366696
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: naruto_parado
+    21300002: naruto_jump2
+    21300004: naruto_run1
+    21300006: naruto_1_3
+    21300008: naruto_run2
+    21300010: naruto_1_5
+    21300012: naruto_run3
+    21300014: naruto_run4
+    21300016: naruto_run5
+    21300018: naruto_jump1
+    21300020: naruto_soco1
+    21300022: naruto_soco2
+    21300024: naruto_soco3
+    21300026: naruto_soco4
+    21300028: naruto_chute1
+    21300030: naruto_chute2
+    21300032: naruto_chute3
+    21300034: naruto_chute4
+    21300036: naruto_1_18
+    21300038: naruto_1_19
+    21300040: naruto_1_20
+    21300042: naruto_1_21
+    21300044: naruto_1_22
+    21300046: naruto_1_23
+    21300048: naruto_1_24
+    21300050: naruto_1_25
+    21300052: naruto_1_26
+    21300054: naruto_1_27
+    21300056: naruto_1_28
+    21300058: naruto_1_29
+    21300060: naruto_1_30
+    21300062: naruto_1_31
+    21300064: naruto_1_32
+    21300066: naruto_1_33
+    21300068: naruto_1_34
+    21300070: naruto_1_35
+    21300072: naruto_1_36
+    21300074: naruto_1_37
+    21300076: naruto_1_38
+    21300078: naruto_1_39
+    21300080: naruto_1_40
+    21300082: naruto_1_41
+    21300084: naruto_1_42
+    21300086: naruto_1_43
+    21300088: naruto_1_44
+    21300090: naruto_1_45
+    21300092: naruto_1_46
+    21300094: naruto_1_47
+    21300096: naruto_1_48
+    21300098: naruto_1_49
+    21300100: naruto_1_50
+    21300102: naruto_1_51
+    21300104: naruto_1_52
+    21300106: naruto_1_53
+    21300108: naruto_1_54
+    21300110: naruto_1_55
+    21300112: naruto_1_56
+    21300114: naruto_1_57
+    21300116: naruto_1_58
+    21300118: naruto_1_59
+    21300120: naruto_1_60
+    21300122: naruto_1_61
+    21300124: naruto_1_62
+    21300126: naruto_1_63
+    21300128: naruto_1_64
+    21300130: naruto_1_65
+    21300132: naruto_1_66
+    21300134: naruto_1_67
+    21300136: naruto_1_68
+    21300138: naruto_1_69
+    21300140: naruto_1_70
+    21300142: naruto_1_71
+    21300144: naruto_1_72
+    21300146: naruto_1_73
+    21300148: naruto_1_74
+    21300150: naruto_jump3
+    21300152: naruto_jump4
+    21300154: naruto_dead1
+    21300156: naruto_dead2
+    21300158: naruto_dead3
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: naruto_parado
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 493
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_run1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 497
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_run2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 497
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_run3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 498
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_run4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 497
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_run5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 497
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_jump1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 498
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_soco1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_soco2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 445
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_soco3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 446
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_soco4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 446
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_chute1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 444
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_chute2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 443
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_chute3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 446
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_chute4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 448
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_jump2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 496
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_jump3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 496
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_jump4
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 497
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_dead1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 187
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_dead2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 187
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: naruto_dead3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 190
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
