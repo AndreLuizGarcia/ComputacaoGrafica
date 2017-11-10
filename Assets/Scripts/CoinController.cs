@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class CoinController : MonoBehaviour {
 
+	public AudioSource audioController;
+	public AudioClip coinAudio; 
 
 	public bool inVida;
 	public LayerMask isPlayer;
@@ -25,6 +27,9 @@ public class CoinController : MonoBehaviour {
 		if(inVida){
 
 			CoinCount.text = "" + (System.Int32.Parse(CoinCount.text.ToString()) + 1); 
+
+			audioController.PlayOneShot (coinAudio);
+
 
 			Destroy (gameObject);
 

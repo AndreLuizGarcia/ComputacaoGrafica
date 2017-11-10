@@ -1,6 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NarutoControllerScene5.cs">
+    <Files>
+      <File FileName="Assets\Scripts\LifeController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CoinController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NarutoController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MenuController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Respaw.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnimySript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NarutoControllerScene2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NarutoControllerScene3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NarutoControllerScene4.cs" Line="117" Column="37" />
+      <File FileName="Assets\Scripts\NarutoControllerScene5.cs" Line="116" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

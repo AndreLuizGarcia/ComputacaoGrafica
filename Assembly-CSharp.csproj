@@ -48,8 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CoinController.cs" />
+     <Compile Include="Assets\Scripts\EnimySript.cs" />
+     <Compile Include="Assets\Scripts\LifeController.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Scripts\NarutoController.cs" />
+     <Compile Include="Assets\Scripts\NarutoControllerScene2.cs" />
+     <Compile Include="Assets\Scripts\NarutoControllerScene3.cs" />
+     <Compile Include="Assets\Scripts\NarutoControllerScene4.cs" />
+     <Compile Include="Assets\Scripts\NarutoControllerScene5.cs" />
+     <Compile Include="Assets\Scripts\Respaw.cs" />
      <Compile Include="Assets\Scripts\SpikeController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

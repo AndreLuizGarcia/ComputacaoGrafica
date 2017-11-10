@@ -1,8 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NarutoController : MonoBehaviour {
+
+	public AudioSource audioController;
+	public AudioClip coinAudio; 
+
 	//Variavel responsavel por referenciar o Animator Controller.
 	public Animator animator;
 
@@ -25,6 +31,8 @@ public class NarutoController : MonoBehaviour {
 	public bool jump,chutar,run,socar;
 
 	public int velocity;
+	public Text ItachiCount;
+	public Text CoinCount;
 
 	// Use this for initialization
 	void Start () {
@@ -64,7 +72,17 @@ public class NarutoController : MonoBehaviour {
 			run = true;
 
 
-		} else if (Input.GetAxisRaw ("Horizontal") < 0) {
+//		}
+		//if(run){
+
+		//	audioController.PlayOneShot (coinAudio);
+			
+		//} else if(jump){
+		//	audioController.PlayOneShot (coinAudio);
+
+		//}else if(socar){
+		//	audioController.PlayOneShot (coinAudio);
+	}else if (Input.GetAxisRaw ("Horizontal") < 0) {
 
 			transform.Translate(Vector2.right*velocity*Time.deltaTime);
 			transform.eulerAngles = new Vector2 (0, 180);
@@ -88,5 +106,23 @@ public class NarutoController : MonoBehaviour {
 		//Passa o estado do botão correr para a Animation Controller, para o parametro correr.
 		animator.SetBool ("run", run);
 
+	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.tag.Equals ("Enimy")) {
+			if (animator.GetBool ("socar") | animator.GetBool("chutar")) {
+				Destroy (other.gameObject);
+				ItachiCount.text = "" + (System.Int32.Parse(ItachiCount.text.ToString()) + 1);
+				if (ItachiCount.text == "5") {
+					SceneManager.LoadScene ("scene2");
+				}
+			} else {
+				CoinCount.text = "" + (System.Int32.Parse(CoinCount.text.ToString()) - 1);
+				Destroy (other.gameObject);
+			}if (CoinCount.text == "0") {
+				SceneManager.LoadScene ("gameover");
+				animator.SetBool ("dead", true);
+			}
+		}
 	}
 }
