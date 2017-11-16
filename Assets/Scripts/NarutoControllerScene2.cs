@@ -8,6 +8,8 @@ public class NarutoControllerScene2 : MonoBehaviour {
 
 	public AudioSource audioController;
 	public AudioClip coinAudio; 
+	public AudioClip narutoAudio; 
+	public AudioClip itachiAudio; 
 
 	//Variavel responsavel por referenciar o Animator Controller.
 	public Animator animator;
@@ -112,6 +114,7 @@ public class NarutoControllerScene2 : MonoBehaviour {
 		if (other.gameObject.tag.Equals ("Enimy")) {
 			if (animator.GetBool ("socar") | animator.GetBool("chutar")) {
 				Destroy (other.gameObject);
+				audioController.PlayOneShot (itachiAudio);
 				ItachiCount.text = "" + (System.Int32.Parse(ItachiCount.text.ToString()) + 1);
 				if (ItachiCount.text == "10") {
 					SceneManager.LoadScene ("scene3");
@@ -119,6 +122,7 @@ public class NarutoControllerScene2 : MonoBehaviour {
 			} else {
 				CoinCount.text = "" + (System.Int32.Parse(CoinCount.text.ToString()) - 1);
 				Destroy (other.gameObject);
+				audioController.PlayOneShot (narutoAudio);
 			}if (CoinCount.text == "0") {
 				SceneManager.LoadScene ("gameover");
 				animator.SetBool ("dead", true);

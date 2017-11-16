@@ -32,5 +32,6 @@ public class EnimySript : MonoBehaviour {
 		if (other.gameObject.tag.Equals ("KillItachi")) {
 			Destroy (gameObject);
 			}
+
 		}
 }

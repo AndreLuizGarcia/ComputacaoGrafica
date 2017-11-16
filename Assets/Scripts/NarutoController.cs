@@ -8,6 +8,8 @@ public class NarutoController : MonoBehaviour {
 
 	public AudioSource audioController;
 	public AudioClip coinAudio; 
+	public AudioClip narutoAudio; 
+	public AudioClip itachiAudio; 
 
 	//Variavel responsavel por referenciar o Animator Controller.
 	public Animator animator;
@@ -46,7 +48,7 @@ public class NarutoController : MonoBehaviour {
 		jump = Input.GetButtonDown ("Jump");
 
 		//Recebe estado do botao chutar
-		chutar = Input.GetButton ("Chutar");
+		chutar = Input.GetButtonDown ("Chutar");
 		//Passa o estado do botão chutar para a Animation Controller, para o parametro chutar.
 		animator.SetBool ("chutar", chutar);
 
@@ -54,7 +56,7 @@ public class NarutoController : MonoBehaviour {
 		run = Input.GetButton ("Run");
 
 		//Recebe estado do botao socar
-		socar = Input.GetButton ("Socar");
+		socar = Input.GetButtonDown ("Socar");
 		//Passa o estado do botão socar para a Animation Controller, para o parametro socar.
 		animator.SetBool ("socar", socar);
 
@@ -112,12 +114,14 @@ public class NarutoController : MonoBehaviour {
 		if (other.gameObject.tag.Equals ("Enimy")) {
 			if (animator.GetBool ("socar") | animator.GetBool("chutar")) {
 				Destroy (other.gameObject);
+				audioController.PlayOneShot (itachiAudio);
 				ItachiCount.text = "" + (System.Int32.Parse(ItachiCount.text.ToString()) + 1);
 				if (ItachiCount.text == "5") {
 					SceneManager.LoadScene ("scene2");
 				}
 			} else {
 				CoinCount.text = "" + (System.Int32.Parse(CoinCount.text.ToString()) - 1);
+				audioController.PlayOneShot (narutoAudio);
 				Destroy (other.gameObject);
 			}if (CoinCount.text == "0") {
 				SceneManager.LoadScene ("gameover");
